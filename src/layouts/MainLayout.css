@@ -1,0 +1,26 @@
+
+
+/* src/layouts/MainLayout.css */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full height */
+  background: #f9fafb; /* light gray background */
+  font-family: "Inter", "Poppins", sans-serif;
+  color: #111827; /* dark gray text */
+}
+
+.content {
+  flex: 1; /* push footer to bottom */
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto; /* centered */
+  padding: 0 20px;
+}

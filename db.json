@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "43ee",
+      "name": "Ayesha Ramzan",
+      "email": "ayesha.ramzan@studio93.io",
+      "password": "ashi"
+    },
+    {
+      "id": "27eb",
+      "name": "Zuni",
+      "email": "zuni123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "0803",
+      "name": "Hira",
+      "email": "hira@gmail.com",
+      "password": "hira"
+    },
+    {
+      "id": "150c",
+      "name": "Aima",
+      "email": "aima123@gmail.com",
+      "password": "aima"
+    }
+  ]
+}

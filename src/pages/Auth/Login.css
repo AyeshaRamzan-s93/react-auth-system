@@ -1,0 +1,102 @@
+
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f9fafb;
+  padding: 20px;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-card input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  width: 100%;
+}
+
+.auth-card input:focus {
+  border-color: #3b82f6;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 0.9rem;
+}
+
+.switch-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.switch-link a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+/* Wrapper for inputs with icons */
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* space for eye icon */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+  color: #6b7280;
+  font-size: 1.2rem;
+}
+
+.eye-icon:hover {
+  color: #111827;
+}
