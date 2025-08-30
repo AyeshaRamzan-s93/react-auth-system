@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import "./SignUp.css";
+import "./Signup.css";
 
 function Signup() {
   const navigate = useNavigate();
