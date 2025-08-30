@@ -45,5 +45,3 @@ The project demonstrates basic user authentication flow using **localStorage** (
 5. Open in browser:
 
        http://localhost:5173/ 
-
-http://localhost:5173/
