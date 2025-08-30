@@ -16,7 +16,7 @@ The project demonstrates basic user authentication flow using **localStorage** (
 - Login with existing user
 - Profile page protected (only accessible after login)
 - Logout option
-- Dummy storage using **localStorage**
+- Dummy storage using **json server**
 - Password show/hide toggle (eye icon)
 
 ---
