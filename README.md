@@ -11,16 +11,6 @@ The project demonstrates basic user authentication flow using **localStorage** (
 
 ---
 
-##  Project Structure
-src/
-├── components/
-├── pages/
-├── App.jsx
-├── main.jsx
-
-
----
-
 ##  Features
 - Create account with **signup form**
 - Login with existing user
@@ -40,24 +30,20 @@ src/
 ## Getting Started
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/react-auth-demo.git
-   cd react-auth-demo
 
-   
-2. npm install
+       git clone https://github.com/your-username/react-auth-demo.git
+       cd react-auth-demo
 
-  ```bash
-   Install dependencies:
+2. Install dependencies:
+
+       npm install
 
 3. Run the project:
 
-npm run dev
-
-4. Run the project:
-
-npm run dev
-
+       npm run dev
+   
 5. Open in browser:
+
+       http://localhost:5173/ 
 
 http://localhost:5173/
